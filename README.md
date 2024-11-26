@@ -75,7 +75,9 @@ document.getElementById("scanButton").addEventListener("click", async () => {
     const description = await describeImage(imageUrl);
     scanTextElement.textContent = description;
 });
-2. Respuesta de la API
+
+
+### 2. **Petición a la API**
 La respuesta de la API es un objeto JSON que contiene la descripción generada de la imagen. A continuación te muestro cómo se recibe la respuesta y qué formato tiene:
 
 json
