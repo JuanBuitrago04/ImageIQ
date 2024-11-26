@@ -76,14 +76,15 @@ document.getElementById("scanButton").addEventListener("click", async () => {
     scanTextElement.textContent = description;
 });
 
-## 2. **Petición a la API**
+## 2. **Respuesta de la API**
+
 La respuesta de la API es un objeto JSON que contiene la descripción generada de la imagen. A continuación te muestro cómo se recibe la respuesta y qué formato tiene:
 
-json
-Copiar código
+```json
 {
   "generated_text": "A beautiful landscape with mountains and a lake."
 }
+
 Este texto es lo que se muestra en la interfaz de usuario, proporcionando una descripción clara de lo que se encuentra en la imagen.
 
 🛠️ Instalación y Uso Local
